@@ -1,4 +1,4 @@
-router.post('/', async (req,res) =>{
+router.post('/', async (req, res) =>{
     //console.log (req.body; se utiliza para la respuesta
     // del pos en la consola)
     const post = new Post({
