@@ -21,7 +21,7 @@ const bodyParser = require('body-parser');
   //conexion a la BD
   mongoose.connect('mongodb+srv://jcer:oP1WpyHTdXwOJRXk@mibd.7ss8add.mongodb.net/?retryWrites=true&w=majority',
   {useNewUrlParser: true},() =>{
-    console.log('si hay conexion a la BD')
+    console.log('si hay conexion a la BD');
   });
   //Primero se configurar como va escuchar el servidor las peticiones
 
